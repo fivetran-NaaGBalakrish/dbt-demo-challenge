@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle
+    schema: dbt_nbalakrish_raw
+    tables:
+      - name: customers
+      - name: orders
+      - name: payments
