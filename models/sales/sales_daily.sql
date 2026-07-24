@@ -1,2 +1,2 @@
-select *
+select order_date
 from {{ ref('sales_orders') }}
